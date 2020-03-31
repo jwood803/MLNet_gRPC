@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "MLNetService";
+
+package prediction;
+
+service PredictionService {
+	rpc Predict (HousingRequest) returns (HousingReply);
+}
+
+message HousingRequest {
+	float longitude = 1;
+	float latitude = 2;
+
+}
