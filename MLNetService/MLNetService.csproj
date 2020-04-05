@@ -5,11 +5,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Protobuf Include="Protos\greet.proto" GrpcServices="Server" />
+    <None Remove="Protos\prediction.proto" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Protobuf Include="Protos\prediction.proto" GrpcServices="Server" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Grpc.AspNetCore" Version="2.24.0" />
+    <PackageReference Include="Microsoft.ML" Version="1.4.0" />
   </ItemGroup>
 
 </Project>

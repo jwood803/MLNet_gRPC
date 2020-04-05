@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29924.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLNetService", "MLNetService\MLNetService.csproj", "{B705C4B5-939D-4ED7-9ED3-FA0EFA743417}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MLNetService", "MLNetService\MLNetService.csproj", "{B705C4B5-939D-4ED7-9ED3-FA0EFA743417}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLNet_gRPC_Client", "MLNet_gRPC_Client\MLNet_gRPC_Client.csproj", "{8B313A23-A693-489A-9B0F-ECB1E7B7F695}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{B705C4B5-939D-4ED7-9ED3-FA0EFA743417}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B705C4B5-939D-4ED7-9ED3-FA0EFA743417}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B705C4B5-939D-4ED7-9ED3-FA0EFA743417}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B313A23-A693-489A-9B0F-ECB1E7B7F695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B313A23-A693-489A-9B0F-ECB1E7B7F695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B313A23-A693-489A-9B0F-ECB1E7B7F695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B313A23-A693-489A-9B0F-ECB1E7B7F695}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
